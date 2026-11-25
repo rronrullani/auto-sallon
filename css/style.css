@@ -87,6 +87,98 @@ main {
     color: #ffffff;
 }
 
+/* ===== Hero (Ballina) ===== */
+.hero {
+    background-image: linear-gradient(135deg, #222831, #30475e);
+    color: #ffffff;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.125rem;
+    max-width: 600px;
+    margin: 0 auto 1.5em;
+}
+
+.buton {
+    display: inline-block;
+    background-color: #f05454;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+.buton:hover {
+    background-color: #d43f3f;
+}
+
+/* ===== Seksionet ===== */
+.seksion {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75em;
+}
+
+.perfitimet {
+    padding-left: 20px;
+}
+
+.perfitimet li {
+    margin-bottom: 6px;
+}
+
+/* ===== Kartat e makinave ===== */
+.kartat {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.karta {
+    flex: 1 1 200px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.karta img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-color: #e3e6ea;
+}
+
+.karta h3 {
+    font-size: 1.125rem;
+    margin-bottom: 4px;
+}
+
+.karta p {
+    margin-bottom: 4px;
+    color: #555555;
+}
+
+.karta .cmimi {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #f05454;
+    margin-bottom: 12px;
+}
+
+.karta a {
+    color: #30475e;
+    font-weight: 600;
+}
+
 /* ===== Fundi i faqes ===== */
 .fundi {
     background-color: #222831;

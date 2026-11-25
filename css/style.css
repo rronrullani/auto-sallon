@@ -1,1 +1,118 @@
-/* Stilet e Auto Sallon */
+/* ===== Stilet e Auto Sallon ===== */
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonti dhe ngjyrat bazë */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222831;
+    background-color: #f4f6f8;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Kontejneri në qendër */
+.permbajtja {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+main {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* ===== Navigimi (mobile-first: në kolonë) ===== */
+.koka {
+    background-color: #222831;
+}
+
+.navigimi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo::first-letter {
+    color: #f05454;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link {
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.nav-link:hover,
+.nav-link.aktiv {
+    background-color: #f05454;
+    color: #ffffff;
+}
+
+/* ===== Fundi i faqes ===== */
+.fundi {
+    background-color: #222831;
+    color: #eeeeee;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.fundi p {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+}
+
+/* ===== Tablet dhe më gjerë: navigimi në rresht ===== */
+@media (min-width: 768px) {
+    .navigimi {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+}
